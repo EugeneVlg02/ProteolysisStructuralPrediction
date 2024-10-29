@@ -20,7 +20,7 @@ To calculate scores for a specific chain of the known experimental 3D structure 
 
 ```python run.py -i 4GAW -c A -l -v```
 
-To calculate scores for a model 3D structure from AlphaFoldDB (e.g. AF-P00257-F1), execute the following command, which includes automatic downloading of the 3D structure from the AlphaFoldDB server (-i), running the locally installed DSSP (-l), and visualizing the results (-v). Selecting of the chain is not required in this situation:
+To calculate scores for a model 3D structure from AlphaFoldDB (e.g. AF-P00257-F1), execute the following command, which includes automatic downloading of the 3D structure from the AlphaFoldDB server (`-i`), running the locally installed DSSP (`-l`), and visualizing the results (`-v`). Selecting of the chain is not required in this situation:
 
 ```python run.py -i AF-P00257-F1 -l -v```
 
